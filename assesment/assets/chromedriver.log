@@ -1,0 +1,319 @@
+[1722093868.993][INFO]: Starting ChromeDriver 126.0.6478.182 (5b5d8292ddf182f8b2096fa665b473b6317906d5-refs/branch-heads/6478@{#1776}) on port 9310
+[1722093868.994][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1722093869.130][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1722093869.130][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1722093869.131][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1722093869.132][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1722093869.132][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1722093869.134][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\gauta\AppData\Local\Temp\scoped_dir16340_1304886313" data:,
+[1722093869.890][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1722093869.910][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "126.0.6478.183",
+      "chrome": {
+         "chromedriverVersion": "126.0.6478.182 (5b5d8292ddf182f8b2096fa665b473b6317906d5-refs/branch-heads/6478@{#1776})",
+         "userDataDir": "C:\\Users\\gauta\\AppData\\Local\\Temp\\scoped_dir16340_1304886313"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49226"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b85a38e19c44a7a5b1f1c575b47ea497"
+}
+[1722093870.159][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND MaximizeWindow {
+}
+[1722093870.159][INFO]: Waiting for pending navigations...
+[1722093870.164][INFO]: Done waiting for pending navigations. Status: ok
+[1722093870.200][INFO]: Waiting for pending navigations...
+[1722093870.201][INFO]: Done waiting for pending navigations. Status: ok
+[1722093870.201][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1722093870.221][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND Navigate {
+   "url": "https://www.flipkart.com"
+}
+[1722093870.221][INFO]: Waiting for pending navigations...
+[1722093870.222][INFO]: Done waiting for pending navigations. Status: ok
+[1722093871.166][INFO]: Waiting for pending navigations...
+[1722093872.592][INFO]: Done waiting for pending navigations. Status: ok
+[1722093872.592][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE Navigate
+[1722093877.604][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1722093877.604][INFO]: Waiting for pending navigations...
+[1722093877.606][INFO]: Done waiting for pending navigations. Status: ok
+[1722093877.622][INFO]: Waiting for pending navigations...
+[1722093877.623][INFO]: Done waiting for pending navigations. Status: ok
+[1722093877.623][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.E187981384404180B00941280B6D5448.e.109"
+}
+[1722093877.635][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND TypeElement {
+   "id": "f.7B55CEB277B64644F6ACDAD8D052F201.d.E187981384404180B00941280B6D5448.e.109",
+   "text": "Washing Machine",
+   "value": [ "W", "a", "s", "h", "i", "n", "g", " ", "M", "a", "c", "h", "i", "n", "e" ]
+}
+[1722093877.635][INFO]: Waiting for pending navigations...
+[1722093877.636][INFO]: Done waiting for pending navigations. Status: ok
+[1722093877.763][INFO]: Waiting for pending navigations...
+[1722093877.775][INFO]: Done waiting for pending navigations. Status: ok
+[1722093877.775][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE TypeElement
+[1722093877.784][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.E187981384404180B00941280B6D5448.e.109"
+   } ],
+   "script": "/* submitForm */var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1722093877.784][INFO]: Waiting for pending navigations...
+[1722093877.785][INFO]: Done waiting for pending navigations. Status: ok
+[1722093877.803][INFO]: Waiting for pending navigations...
+[1722093880.179][INFO]: Done waiting for pending navigations. Status: ok
+[1722093880.179][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE ExecuteScript null
+[1722093880.189][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[text()='Popularity']"
+}
+[1722093880.189][INFO]: Waiting for pending navigations...
+[1722093880.193][INFO]: Done waiting for pending navigations. Status: ok
+[1722093880.221][INFO]: Waiting for pending navigations...
+[1722093880.222][INFO]: Done waiting for pending navigations. Status: ok
+[1722093880.223][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.AB0383A17FA3ED764D9F1B8DDAFF05BE.e.296"
+}
+[1722093880.228][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND ClickElement {
+   "id": "f.7B55CEB277B64644F6ACDAD8D052F201.d.AB0383A17FA3ED764D9F1B8DDAFF05BE.e.296"
+}
+[1722093880.228][INFO]: Waiting for pending navigations...
+[1722093880.229][INFO]: Done waiting for pending navigations. Status: ok
+[1722093880.330][INFO]: Waiting for pending navigations...
+[1722093880.341][INFO]: Done waiting for pending navigations. Status: ok
+[1722093880.341][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE ClickElement
+[1722093885.367][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElements {
+   "using": "css selector",
+   "value": "div._3LWZlK"
+}
+[1722093885.367][INFO]: Waiting for pending navigations...
+[1722093885.368][INFO]: Done waiting for pending navigations. Status: ok
+[1722093885.382][INFO]: Waiting for pending navigations...
+[1722093885.383][INFO]: Done waiting for pending navigations. Status: ok
+[1722093885.383][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElements [  ]
+[1722093885.393][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND Navigate {
+   "url": "https://www.flipkart.com"
+}
+[1722093885.393][INFO]: Waiting for pending navigations...
+[1722093885.394][INFO]: Done waiting for pending navigations. Status: ok
+[1722093886.116][INFO]: Waiting for pending navigations...
+[1722093887.208][INFO]: Done waiting for pending navigations. Status: ok
+[1722093887.208][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE Navigate
+[1722093892.227][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1722093892.227][INFO]: Waiting for pending navigations...
+[1722093892.228][INFO]: Done waiting for pending navigations. Status: ok
+[1722093892.236][INFO]: Waiting for pending navigations...
+[1722093892.237][INFO]: Done waiting for pending navigations. Status: ok
+[1722093892.237][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.0010BB78A3B9068D0F960A8D8FE69ED4.e.395"
+}
+[1722093892.242][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND TypeElement {
+   "id": "f.7B55CEB277B64644F6ACDAD8D052F201.d.0010BB78A3B9068D0F960A8D8FE69ED4.e.395",
+   "text": "iPhone",
+   "value": [ "i", "P", "h", "o", "n", "e" ]
+}
+[1722093892.242][INFO]: Waiting for pending navigations...
+[1722093892.243][INFO]: Done waiting for pending navigations. Status: ok
+[1722093892.310][INFO]: Waiting for pending navigations...
+[1722093892.315][INFO]: Done waiting for pending navigations. Status: ok
+[1722093892.315][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE TypeElement
+[1722093892.320][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.0010BB78A3B9068D0F960A8D8FE69ED4.e.395"
+   } ],
+   "script": "/* submitForm */var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1722093892.320][INFO]: Waiting for pending navigations...
+[1722093892.321][INFO]: Done waiting for pending navigations. Status: ok
+[1722093892.330][INFO]: Waiting for pending navigations...
+[1722093893.996][INFO]: Done waiting for pending navigations. Status: ok
+[1722093893.996][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE ExecuteScript null
+[1722093894.001][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a._1fQZEK"
+}
+[1722093894.001][INFO]: Waiting for pending navigations...
+[1722093894.002][INFO]: Done waiting for pending navigations. Status: ok
+[1722093894.023][INFO]: Waiting for pending navigations...
+[1722093894.032][INFO]: Done waiting for pending navigations. Status: ok
+[1722093894.032][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElements [  ]
+[1722093894.037][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND Navigate {
+   "url": "https://www.flipkart.com"
+}
+[1722093894.037][INFO]: Waiting for pending navigations...
+[1722093894.038][INFO]: Done waiting for pending navigations. Status: ok
+[1722093894.904][INFO]: Waiting for pending navigations...
+[1722093895.770][INFO]: Done waiting for pending navigations. Status: ok
+[1722093895.770][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE Navigate
+[1722093900.778][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1722093900.778][INFO]: Waiting for pending navigations...
+[1722093900.779][INFO]: Done waiting for pending navigations. Status: ok
+[1722093900.788][INFO]: Waiting for pending navigations...
+[1722093900.789][INFO]: Done waiting for pending navigations. Status: ok
+[1722093900.789][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.742E3C24E543E963615571AA55468F9F.e.663"
+}
+[1722093900.797][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND TypeElement {
+   "id": "f.7B55CEB277B64644F6ACDAD8D052F201.d.742E3C24E543E963615571AA55468F9F.e.663",
+   "text": "Coffee Mug",
+   "value": [ "C", "o", "f", "f", "e", "e", " ", "M", "u", "g" ]
+}
+[1722093900.797][INFO]: Waiting for pending navigations...
+[1722093900.798][INFO]: Done waiting for pending navigations. Status: ok
+[1722093900.904][INFO]: Waiting for pending navigations...
+[1722093900.914][INFO]: Done waiting for pending navigations. Status: ok
+[1722093900.914][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE TypeElement
+[1722093900.920][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.742E3C24E543E963615571AA55468F9F.e.663"
+   } ],
+   "script": "/* submitForm */var form = arguments[0];\nwhile (form.nodeName != \"FORM\" && form.parentNode) {\n  form = form.parentNode;\n}\nif (!form) { throw Error('Unable to find containing form element'); }\nif (!form.ownerDocument) { throw Error('Unable to find owning document'); }\nvar e = form.ownerDocument.createEvent('Event');\ne.initEvent('submit', true, true);\nif (form.dispatchEvent(e)) { HTMLFormElement.prototype.submit.call(form) }\n"
+}
+[1722093900.920][INFO]: Waiting for pending navigations...
+[1722093900.922][INFO]: Done waiting for pending navigations. Status: ok
+[1722093900.934][INFO]: Waiting for pending navigations...
+[1722093903.169][INFO]: Done waiting for pending navigations. Status: ok
+[1722093903.169][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE ExecuteScript null
+[1722093903.174][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(text(),'4★ & above')]"
+}
+[1722093903.174][INFO]: Waiting for pending navigations...
+[1722093903.176][INFO]: Done waiting for pending navigations. Status: ok
+[1722093903.209][INFO]: Waiting for pending navigations...
+[1722093903.210][INFO]: Done waiting for pending navigations. Status: ok
+[1722093903.211][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.7B55CEB277B64644F6ACDAD8D052F201.d.083D89A434F72BDDCD8CECB5D7BF7EA3.e.750"
+}
+[1722093903.215][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND ClickElement {
+   "id": "f.7B55CEB277B64644F6ACDAD8D052F201.d.083D89A434F72BDDCD8CECB5D7BF7EA3.e.750"
+}
+[1722093903.215][INFO]: Waiting for pending navigations...
+[1722093903.216][INFO]: Done waiting for pending navigations. Status: ok
+[1722093903.365][INFO]: Waiting for pending navigations...
+[1722093903.379][INFO]: Done waiting for pending navigations. Status: ok
+[1722093903.379][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE ClickElement
+[1722093908.386][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND FindElements {
+   "using": "css selector",
+   "value": "a._1fQZEK"
+}
+[1722093908.386][INFO]: Waiting for pending navigations...
+[1722093908.388][INFO]: Done waiting for pending navigations. Status: ok
+[1722093908.399][INFO]: Waiting for pending navigations...
+[1722093908.402][INFO]: Done waiting for pending navigations. Status: ok
+[1722093908.402][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE FindElements [  ]
+[1722093908.411][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] COMMAND CloseWindow {
+}
+[1722093908.513][INFO]: [b85a38e19c44a7a5b1f1c575b47ea497] RESPONSE CloseWindow [  ]
